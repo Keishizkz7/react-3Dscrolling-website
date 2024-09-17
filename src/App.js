@@ -63,7 +63,7 @@ function App() {
   return (
 
     <Canvas>
-      <ScrollControls pages={2} damping={3} horizontal={false} infinite={false}>
+      <ScrollControls pages={2} damping={1} horizontal={false} infinite={false}>
         
         <Scroll>
           <Images/>
